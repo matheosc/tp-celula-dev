@@ -9,8 +9,16 @@
 **Escenario B – Análisis de Ventas de una Pequeña Empresa**
 
 ## Dataset utilizado
-Dataset simulado de ventas diarias con productos, cantidades y precios.
-Almacenado en: `datos/ventas.csv`
+Archivo: `datos/ventas.csv`  
+Registros: 150 transacciones de ventas (enero - mayo 2026)  
+Columnas: ID_Venta, Fecha, Producto, Categoria, Cantidad, Precio_Unitario, Total, Region  
+Fuente: Dataset propio generado para el trabajo práctico  
+
+## Resultados generados
+- `resultados/ventas_por_mes.png` — Evolución mensual de ventas
+- `resultados/ventas_por_categoria.png` — Participación por categoría
+- `resultados/ventas_por_region.png` — Comparativo por región
+- `resultados/resumen_indicadores.csv` — Tabla de indicadores clave
 
 ## Cómo ejecutar
 1. Clonar el repositorio
