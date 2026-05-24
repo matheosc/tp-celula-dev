@@ -1,91 +1,151 @@
-fecha,producto,cantidad,precio,total
-2024-01-01,Teclado,8,45,360
-2024-01-02,Monitor,4,300,1200
-2024-01-03,Laptop,2,1200,2400
-2024-01-04,Teclado,6,45,270
-2024-01-05,Teclado,10,45,450
-2024-01-06,Monitor,4,300,1200
-2024-01-07,Laptop,18,1200,21600
-2024-01-08,Laptop,12,1200,14400
-2024-01-09,Teclado,2,45,90
-2024-01-10,Mouse,10,25,250
-2024-01-11,Teclado,4,45,180
-2024-01-12,Teclado,14,45,630
-2024-01-13,Teclado,16,45,720
-2024-01-14,Teclado,15,45,675
-2024-01-15,Monitor,8,300,2400
-2024-01-16,Laptop,14,1200,16800
-2024-01-17,Monitor,8,300,2400
-2024-01-18,Monitor,16,300,4800
-2024-01-19,Monitor,13,300,3900
-2024-01-20,Teclado,18,45,810
-2024-01-21,Mouse,15,25,375
-2024-01-22,Laptop,13,1200,15600
-2024-01-23,Mouse,9,25,225
-2024-01-24,Monitor,15,300,4500
-2024-01-25,Monitor,13,300,3900
-2024-01-26,Mouse,1,25,25
-2024-01-27,Mouse,7,25,175
-2024-01-28,Mouse,9,25,225
-2024-01-29,Monitor,1,300,300
-2024-01-30,Monitor,12,300,3600
-2024-01-31,Laptop,8,1200,9600
-2024-02-01,Laptop,11,1200,13200
-2024-02-02,Monitor,19,300,5700
-2024-02-03,Mouse,17,25,425
-2024-02-04,Mouse,8,25,200
-2024-02-05,Laptop,3,1200,3600
-2024-02-06,Monitor,3,300,900
-2024-02-07,Laptop,1,1200,1200
-2024-02-08,Laptop,5,1200,6000
-2024-02-09,Teclado,10,45,450
-2024-02-10,Teclado,7,45,315
-2024-02-11,Teclado,9,45,405
-2024-02-12,Mouse,7,25,175
-2024-02-13,Monitor,9,300,2700
-2024-02-14,Monitor,8,300,2400
-2024-02-15,Monitor,12,300,3600
-2024-02-16,Monitor,2,300,600
-2024-02-17,Teclado,1,45,45
-2024-02-18,Mouse,16,25,400
-2024-02-19,Mouse,5,25,125
-2024-02-20,Teclado,3,45,135
-2024-02-21,Mouse,12,25,300
-2024-02-22,Teclado,8,45,360
-2024-02-23,Monitor,3,300,900
-2024-02-24,Teclado,1,45,45
-2024-02-25,Monitor,3,300,900
-2024-02-26,Monitor,5,300,1500
-2024-02-27,Laptop,15,1200,18000
-2024-02-28,Teclado,14,45,630
-2024-02-29,Laptop,3,1200,3600
-2024-03-01,Teclado,1,45,45
-2024-03-02,Teclado,5,45,225
-2024-03-03,Laptop,14,1200,16800
-2024-03-04,Laptop,7,1200,8400
-2024-03-05,Teclado,9,45,405
-2024-03-06,Mouse,15,25,375
-2024-03-07,Monitor,15,300,4500
-2024-03-08,Laptop,10,1200,12000
-2024-03-09,Monitor,13,300,3900
-2024-03-10,Mouse,19,25,475
-2024-03-11,Mouse,7,25,175
-2024-03-12,Mouse,17,25,425
-2024-03-13,Laptop,4,1200,4800
-2024-03-14,Mouse,5,25,125
-2024-03-15,Laptop,7,1200,8400
-2024-03-16,Mouse,13,25,325
-2024-03-17,Monitor,15,300,4500
-2024-03-18,Monitor,11,300,3300
-2024-03-19,Teclado,4,45,180
-2024-03-20,Monitor,13,300,3900
-2024-03-21,Teclado,7,45,315
-2024-03-22,Monitor,19,300,5700
-2024-03-23,Laptop,2,1200,2400
-2024-03-24,Monitor,10,300,3000
-2024-03-25,Teclado,13,45,585
-2024-03-26,Teclado,6,45,270
-2024-03-27,Mouse,12,25,300
-2024-03-28,Laptop,12,1200,14400
-2024-03-29,Monitor,11,300,3300
-2024-03-30,Mouse,7,25,175
+ID_Venta,Fecha,Producto,Categoria,Cantidad,Precio_Unitario,Total,Region
+1,2026-01-02,Auriculares Bluetooth,Electronica,2,45.00,90.00,Norte
+2,2026-01-02,Teclado Mecanico,Electronica,1,80.00,80.00,Centro
+3,2026-01-03,Zapatillas Running,Calzado,1,120.00,120.00,Sur
+4,2026-01-04,Remera Algodon,Indumentaria,3,25.00,75.00,Norte
+5,2026-01-05,Mouse Inalambrico,Electronica,5,15.00,75.00,Centro
+6,2026-01-05,Pantalon Jean,Indumentaria,2,55.00,110.00,Sur
+7,2026-01-06,Cafetera Capsulas,Hogar,1,150.00,150.00,Norte
+8,2026-01-07,Remera Algodon,Indumentaria,4,25.00,100.00,Centro
+9,2026-01-08,Monitor 24,Electronica,1,190.00,190.00,Sur
+10,2026-01-09,Zapatillas Running,Calzado,2,120.00,240.00,Norte
+11,2026-01-10,Licuadora de Mano,Hogar,1,35.00,35.00,Centro
+12,2026-01-10,Pava Electrica,Hogar,2,40.00,80.00,Sur
+13,2026-01-11,Teclado Mecanico,Electronica,2,80.00,160.00,Norte
+14,2026-01-12,Pantalon Jean,Indumentaria,1,55.00,55.00,Centro
+15,2026-01-12,Mouse Inalambrico,Electronica,3,15.00,45.00,Sur
+16,2026-01-13,Zapatillas Running,Calzado,1,120.00,120.00,Norte
+17,2026-01-14,Remera Algodon,Indumentaria,2,25.00,50.00,Centro
+18,2026-01-15,Auriculares Bluetooth,Electronica,1,45.00,45.00,Sur
+19,2026-01-15,Cafetera Capsulas,Hogar,1,150.00,150.00,Norte
+20,2026-01-16,Pantalon Jean,Indumentaria,3,55.00,165.00,Centro
+21,2026-01-17,Pava Electrica,Hogar,1,40.00,40.00,Sur
+22,2026-01-18,Monitor 24,Electronica,1,190.00,190.00,Norte
+23,2026-01-19,Remera Algodon,Indumentaria,5,25.00,125.00,Centro
+24,2026-01-20,Zapatillas Running,Calzado,2,120.00,240.00,Sur
+25,2026-01-21,Teclado Mecanico,Electronica,1,80.00,80.00,Norte
+26,2026-01-22,Licuadora de Mano,Hogar,2,35.00,70.00,Centro
+27,2026-01-22,Mouse Inalambrico,Electronica,4,15.00,60.00,Sur
+28,2026-01-23,Pantalon Jean,Indumentaria,2,55.00,110.00,Norte
+29,2026-01-24,Auriculares Bluetooth,Electronica,3,45.00,135.00,Centro
+30,2026-01-25,Cafetera Capsulas,Hogar,1,150.00,150.00,Sur
+31,2026-01-26,Remera Algodon,Indumentaria,1,25.00,25.00,Norte
+32,2026-01-27,Zapatillas Running,Calzado,1,120.00,120.00,Centro
+33,2026-01-28,Monitor 24,Electronica,2,190.00,380.00,Sur
+34,2026-01-29,Pava Electrica,Hogar,1,40.00,40.00,Norte
+35,2026-01-30,Mouse Inalambrico,Electronica,2,15.00,30.00,Centro
+36,2026-01-31,Teclado Mecanico,Electronica,1,80.00,80.00,Sur
+37,2026-02-01,Pantalon Jean,Indumentaria,2,55.00,110.00,Norte
+38,2026-02-02,Licuadora de Mano,Hogar,1,35.00,35.00,Centro
+39,2026-02-03,Auriculares Bluetooth,Electronica,2,45.00,90.00,Sur
+40,2026-02-04,Remera Algodon,Indumentaria,4,25.00,100.00,Norte
+41,2026-02-05,Cafetera Capsulas,Hogar,2,150.00,300.00,Centro
+42,2026-02-06,Zapatillas Running,Calzado,1,120.00,120.00,Sur
+43,2026-02-07,Teclado Mecanico,Electronica,1,80.00,80.00,Norte
+44,2026-02-08,Pava Electrica,Hogar,3,40.00,120.00,Centro
+45,2026-02-09,Mouse Inalambrico,Electronica,5,15.00,75.00,Sur
+46,2026-02-10,Pantalon Jean,Indumentaria,1,55.00,55.00,Norte
+47,2026-02-11,Monitor 24,Electronica,1,190.00,190.00,Centro
+48,2026-02-12,Remera Algodon,Indumentaria,3,25.00,75.00,Sur
+49,2026-02-13,Auriculares Bluetooth,Electronica,1,45.00,45.00,Norte
+50,2026-02-14,Licuadora de Mano,Hogar,2,35.00,70.00,Centro
+51,2026-02-15,Zapatillas Running,Calzado,2,120.00,240.00,Sur
+52,2026-02-16,Cafetera Capsulas,Hogar,1,150.00,150.00,Norte
+53,2026-02-17,Teclado Mecanico,Electronica,2,80.00,160.00,Centro
+54,2026-02-18,Pantalon Jean,Indumentaria,2,55.00,110.00,Sur
+55,2026-02-19,Pava Electrica,Hogar,2,40.00,80.00,Norte
+56,2026-02-20,Mouse Inalambrico,Electronica,3,15.00,45.00,Centro
+57,2026-02-21,Remera Algodon,Indumentaria,6,25.00,150.00,Sur
+58,2026-02-22,Monitor 24,Electronica,1,190.00,190.00,Norte
+59,2026-02-23,Auriculares Bluetooth,Electronica,4,45.00,180.00,Centro
+60,2026-02-24,Zapatillas Running,Calzado,1,120.00,120.00,Sur
+61,2026-02-25,Licuadora de Mano,Hogar,1,35.00,35.00,Norte
+62,2026-02-26,Pantalon Jean,Indumentaria,3,55.00,165.00,Centro
+63,2026-02-27,Teclado Mecanico,Electronica,1,80.00,80.00,Sur
+64,2026-02-28,Cafetera Capsulas,Hogar,1,150.00,150.00,Norte
+65,2026-03-01,Remera Algodon,Indumentaria,2,25.00,50.00,Centro
+66,2026-03-02,Mouse Inalambrico,Electronica,2,15.00,30.00,Sur
+67,2026-03-03,Pava Electrica,Hogar,1,40.00,40.00,Norte
+68,2026-03-04,Zapatillas Running,Calzado,2,120.00,240.00,Centro
+69,2026-03-05,Monitor 24,Electronica,1,190.00,190.00,Sur
+70,2026-03-06,Auriculares Bluetooth,Electronica,2,45.00,90.00,Norte
+71,2026-03-07,Pantalon Jean,Indumentaria,1,55.00,55.00,Centro
+72,2026-03-08,Licuadora de Mano,Hogar,2,35.00,70.00,Sur
+73,2026-03-09,Teclado Mecanico,Electronica,3,80.00,240.00,Norte
+74,2026-03-10,Remera Algodon,Indumentaria,4,25.00,100.00,Centro
+75,2026-03-11,Cafetera Capsulas,Hogar,1,150.00,150.00,Sur
+76,2026-03-12,Mouse Inalambrico,Electronica,6,15.00,90.00,Norte
+77,2026-03-13,Zapatillas Running,Calzado,1,120.00,120.00,Centro
+78,2026-03-14,Pava Electrica,Hogar,2,40.00,80.00,Sur
+79,2026-03-15,Monitor 24,Electronica,1,190.00,190.00,Norte
+80,2026-03-16,Pantalon Jean,Indumentaria,2,55.00,110.00,Centro
+81,2026-03-17,Auriculares Bluetooth,Electronica,1,45.00,45.00,Sur
+82,2026-03-18,Licuadora de Mano,Hogar,1,35.00,35.00,Norte
+83,2026-03-19,Remera Algodon,Indumentaria,3,25.00,75.00,Centro
+84,2026-03-20,Teclado Mecanico,Electronica,2,80.00,160.00,Sur
+85,2026-03-21,Cafetera Capsulas,Hogar,2,150.00,300.00,Norte
+86,2026-03-22,Zapatillas Running,Calzado,2,120.00,240.00,Centro
+87,2026-03-23,Mouse Inalambrico,Electronica,4,15.00,60.00,Sur
+88,2026-03-24,Pantalon Jean,Indumentaria,1,55.00,55.00,Norte
+89,2026-03-25,Pava Electrica,Hogar,3,40.00,120.00,Centro
+90,2026-03-26,Monitor 24,Electronica,1,190.00,190.00,Sur
+91,2026-03-27,Remera Algodon,Indumentaria,5,25.00,125.00,Norte
+92,2026-03-28,Auriculares Bluetooth,Electronica,2,45.00,90.00,Centro
+93,2026-03-29,Licuadora de Mano,Hogar,1,35.00,35.00,Sur
+94,2026-03-30,Teclado Mecanico,Electronica,1,80.00,80.00,Norte
+95,2026-03-31,Zapatillas Running,Calzado,1,120.00,120.00,Centro
+96,2026-04-01,Cafetera Capsulas,Hogar,1,150.00,150.00,Sur
+97,2026-04-02,Pantalon Jean,Indumentaria,4,55.00,220.00,Norte
+98,2026-04-03,Mouse Inalambrico,Electronica,3,15.00,45.00,Centro
+99,2026-04-04,Pava Electrica,Hogar,1,40.00,40.00,Sur
+100,2026-04-05,Monitor 24,Electronica,2,190.00,380.00,Norte
+101,2026-04-06,Remera Algodon,Indumentaria,2,25.00,50.00,Centro
+102,2026-04-07,Auriculares Bluetooth,Electronica,3,45.00,135.00,Sur
+103,2026-04-08,Licuadora de Mano,Hogar,2,35.00,70.00,Norte
+104,2026-04-09,Teclado Mecanico,Electronica,1,80.00,80.00,Centro
+105,2026-04-10,Zapatillas Running,Calzado,1,120.00,120.00,Sur
+106,2026-04-11,Pantalon Jean,Indumentaria,2,55.00,110.00,Norte
+107,2026-04-12,Cafetera Capsulas,Hogar,1,150.00,150.00,Centro
+108,2026-04-13,Mouse Inalambrico,Electronica,5,15.00,75.00,Sur
+109,2026-04-14,Pava Electrica,Hogar,2,40.00,80.00,Norte
+110,2026-04-15,Monitor 24,Electronica,1,190.00,190.00,Centro
+111,2026-04-16,Remera Algodon,Indumentaria,4,25.00,100.00,Sur
+112,2026-04-17,Auriculares Bluetooth,Electronica,1,45.00,45.00,Norte
+113,2026-04-18,Licuadora de Mano,Hogar,1,35.00,35.00,Centro
+114,2026-04-19,Teclado Mecanico,Electronica,2,80.00,160.00,Sur
+115,2026-04-20,Zapatillas Running,Calzado,3,120.00,360.00,Norte
+116,2026-04-21,Pantalon Jean,Indumentaria,1,55.00,55.00,Centro
+117,2026-04-22,Cafetera Capsulas,Hogar,2,150.00,300.00,Sur
+118,2026-04-23,Mouse Inalambrico,Electronica,2,15.00,30.00,Norte
+119,2026-04-24,Pava Electrica,Hogar,1,40.00,40.00,Centro
+120,2026-04-25,Monitor 24,Electronica,1,190.00,190.00,Sur
+121,2026-04-26,Remera Algodon,Indumentaria,3,25.00,75.00,Norte
+122,2026-04-27,Auriculares Bluetooth,Electronica,2,45.00,90.00,Centro
+123,2026-04-28,Licuadora de Mano,Hogar,3,35.00,105.00,Sur
+124,2026-04-29,Teclado Mecanico,Electronica,1,80.00,80.00,Norte
+125,2026-04-30,Zapatillas Running,Calzado,2,120.00,240.00,Centro
+126,2026-05-01,Pantalon Jean,Indumentaria,2,55.00,110.00,Sur
+127,2026-05-02,Cafetera Capsulas,Hogar,1,150.00,150.00,Norte
+128,2026-05-03,Mouse Inalambrico,Electronica,4,15.00,60.00,Centro
+129,2026-05-04,Pava Electrica,Hogar,2,40.00,80.00,Sur
+130,2026-05-05,Monitor 24,Electronica,1,190.00,190.00,Norte
+131,2026-05-06,Remera Algodon,Indumentaria,6,25.00,150.00,Centro
+132,2026-05-07,Auriculares Bluetooth,Electronica,1,45.00,45.00,Sur
+133,2026-05-08,Licuadora de Mano,Hogar,1,35.00,35.00,Norte
+134,2026-05-09,Teclado Mecanico,Electronica,2,80.00,160.00,Centro
+135,2026-05-10,Zapatillas Running,Calzado,1,120.00,120.00,Sur
+136,2026-05-11,Pantalon Jean,Indumentaria,3,55.00,165.00,Norte
+137,2026-05-12,Cafetera Capsulas,Hogar,1,150.00,150.00,Centro
+138,2026-05-13,Mouse Inalambrico,Electronica,3,15.00,45.00,Sur
+139,2026-05-14,Pava Electrica,Hogar,2,40.00,80.00,Norte
+140,2026-05-15,Monitor 24,Electronica,1,190.00,190.00,Centro
+141,2026-05-16,Remera Algodon,Indumentaria,2,25.00,50.00,Sur
+142,2026-05-17,Auriculares Bluetooth,Electronica,3,45.00,135.00,Norte
+143,2026-05-18,Licuadora de Mano,Hogar,2,35.00,70.00,Centro
+144,2026-05-19,Teclado Mecanico,Electronica,1,80.00,80.00,Sur
+145,2026-05-20,Zapatillas Running,Calzado,2,120.00,240.00,Norte
+146,2026-05-21,Pantalon Jean,Indumentaria,2,55.00,110.00,Centro
+147,2026-05-22,Cafetera Capsulas,Hogar,1,150.00,150.00,Sur
+148,2026-05-23,Mouse Inalambrico,Electronica,5,15.00,75.00,Norte
+149,2026-05-24,Pava Electrica,Hogar,1,40.00,40.00,Centro
+150,2026-05-24,Monitor 24,Electronica,2,190.00,380.00,Sur
